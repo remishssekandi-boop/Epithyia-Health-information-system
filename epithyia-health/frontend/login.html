@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sign in to EPITHYIA GROUP.">
+  <title>Log in — EPITHYIA GROUP</title>
+  <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/auth.css">
+  <script src="js/api.js" defer></script><script src="js/site.js" defer></script><script src="js/auth.js" defer></script>
+</head>
+<body class="auth-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="index.html" aria-label="EPITHYIA GROUP home"><span class="brand-mark" aria-hidden="true">E</span><span>EPITHYIA <strong>GROUP</strong></span></a><nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="health-information.html">Health information</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav><div class="header-actions"><div class="auth-entry"><a class="button button-quiet" href="login.html" aria-current="page">Log in</a><a class="button button-small" href="register.html">Join</a></div><div class="auth-session" hidden><span class="welcome-label">Hello, <strong data-user-name></strong></span><button class="button button-quiet" type="button" data-logout>Log out</button></div></div></header>
+  <main id="main" class="auth-layout"><section class="auth-story"><p class="eyebrow">Account access</p><h1>Welcome<br><em>back.</em></h1><p>Sign in to open the account dashboard and, when assigned, manage health content or platform accounts.</p><a class="text-link" href="health-information.html">Browse public health information <span aria-hidden="true">→</span></a></section>
+    <section class="auth-card"><div class="auth-card-heading"><span class="card-icon" aria-hidden="true">↗</span><p class="eyebrow">Account access</p><h2>Log in</h2><p>Enter the email and password associated with your account.</p></div>
+      <form id="login-form" novalidate><label class="form-field"><span>Email address</span><input name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"></label><label class="form-field"><span>Password</span><input name="password" type="password" autocomplete="current-password" required></label><button class="button button-full" type="submit">Log in <span aria-hidden="true">→</span></button><p class="form-feedback" id="login-feedback" role="status" aria-live="polite"></p></form>
+      <p class="auth-switch">New to the platform? <a href="register.html">Create an account</a></p>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="index.html">EPITHYIA <strong>GROUP</strong></a><p>Practical hospital and health information for Kampala communities.</p><span>© <span data-current-year></span> EPITHYIA GROUP</span></footer>
+</body>
+</html>

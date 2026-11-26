@@ -1,0 +1,26 @@
+.dashboard-content { display: grid; max-width: 900px; gap: 1.1rem; margin: 0 auto; }
+.dashboard-card { min-width: 0; padding: clamp(1.1rem, 3vw, 1.6rem); border: 1px solid var(--line); border-radius: 15px; background: #fff; }
+.dashboard-card h2 { margin-bottom: .6rem; font-size: 1.45rem; }
+.dashboard-card > p { color: var(--muted); font-size: .82rem; line-height: 1.65; }
+.dashboard-shortcuts { display: flex; flex-wrap: wrap; gap: .7rem; }
+.dashboard-list { display: grid; gap: .55rem; margin: .8rem 0 0; padding: 0; list-style: none; }
+.dashboard-list li { padding: .8rem; border-radius: 9px; background: #f5f8f5; color: #536b60; font-size: .78rem; line-height: 1.5; overflow-wrap: anywhere; }
+.dashboard-users { width: 100%; border-collapse: collapse; font-size: .76rem; }
+.dashboard-users th, .dashboard-users td { padding: .65rem .45rem; border-bottom: 1px solid #e7eee8; text-align: left; vertical-align: middle; }
+.dashboard-users th { color: #536b60; }
+.dashboard-users td { overflow-wrap: anywhere; }
+.dashboard-users select { max-width: 100%; min-height: 38px; padding: .35rem; border: 1px solid #d6e1d9; border-radius: 7px; background: #fbfcfb; }
+.dashboard-table-wrap { overflow-x: auto; }
+.dashboard-form { display: grid; gap: .8rem; }
+.dashboard-form label { display: grid; gap: .35rem; color: #536b60; font-size: .76rem; font-weight: 700; }
+.dashboard-form input, .dashboard-form textarea, .dashboard-form select { width: 100%; min-width: 0; min-height: 44px; padding: .65rem .75rem; border: 1px solid #d6e1d9; border-radius: 8px; color: var(--ink); background: #fbfcfb; font: inherit; }
+.dashboard-form textarea { min-height: 130px; resize: vertical; }
+.dashboard-feedback { min-height: 1.3rem; margin: 0; color: #a44634; font-size: .75rem; line-height: 1.55; }
+.dashboard-feedback.success { color: #286543; }
+.button-danger { border: 1px solid #9a3428; color: #fff; background: #9a3428; }
+.button-danger:hover { background: #7f291f; }
+.dashboard-card h3 { margin: 1.1rem 0 .45rem; font-size: 1rem; }
+@media (max-width: 560px) {
+  .dashboard-users { font-size: .68rem; }
+  .dashboard-users th, .dashboard-users td { padding: .55rem .3rem; }
+}

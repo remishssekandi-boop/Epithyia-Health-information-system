@@ -1,0 +1,32 @@
+{
+  "name": "epithyia-health-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express and MySQL API for the Epithyia Group health information platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "test:demo": "node --test tests/demoMode.test.js tests/staticPages.test.js",
+    "db:setup": "node scripts/db-setup.js",
+    "db:schema": "node scripts/db-setup.js --schema-only",
+    "db:seed": "node scripts/db-setup.js --seed-only",
+    "db:verify": "node scripts/db-verify.js",
+    "export:pages-data": "node scripts/export-pages-data.js"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.14.1",
+    "sql.js": "^1.13.0"
+  }
+}

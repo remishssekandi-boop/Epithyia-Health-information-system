@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hospital profile in the EPITHYIA GROUP directory.">
+  <title>Hospital profile — EPITHYIA GROUP</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hospitals.css">
+  <script src="js/api.js" defer></script>
+  <script src="js/site.js" defer></script>
+  <script src="js/hospital.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="EPITHYIA GROUP home"><span class="brand-mark" aria-hidden="true">E</span><span>EPITHYIA <strong>GROUP</strong></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="health-information.html">Health information</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    <div class="header-actions"><div class="auth-entry"><a class="button button-quiet" href="login.html">Log in</a><a class="button button-small" href="register.html">Join</a></div><div class="auth-session" hidden><span class="welcome-label">Hello, <strong data-user-name></strong></span><button class="button button-quiet" type="button" data-logout>Log out</button></div></div>
+  </header>
+  <main id="main" class="page-shell hospital-profile-shell">
+    <a class="back-link" href="hospitals.html">← Back to hospital directory</a>
+    <article id="hospital-profile" class="hospital-profile" aria-live="polite"><p class="loading-note">Loading hospital profile…</p></article>
+    <p class="content-notice hospital-disclaimer">Hospital details come from the hospital and/or Kampala Capital City Authority. Hours and service availability can change; call the hospital before travelling. This directory is not an emergency response service.</p>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="index.html">EPITHYIA <strong>GROUP</strong></a><p>Practical hospital and health information for Kampala communities.</p><span>© <span data-current-year></span> EPITHYIA GROUP</span></footer>
+</body>
+</html>
