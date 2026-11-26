@@ -1,0 +1,619 @@
+{
+  "categories": [
+    {
+      "id": 68,
+      "name": "Child Health",
+      "description": "Guidance for child wellness visits, vaccination, illness warning signs, and caregiver questions.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    },
+    {
+      "id": 73,
+      "name": "Disease Prevention",
+      "description": "Practical steps for staying healthy and reducing everyday infection risks.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    },
+    {
+      "id": 74,
+      "name": "Emergency Information",
+      "description": "How to recognize urgent warning signs and obtain appropriate emergency care.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    },
+    {
+      "id": 70,
+      "name": "HIV and Sexual Health",
+      "description": "Confidential care, prevention, testing, and reproductive health information.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    },
+    {
+      "id": 75,
+      "name": "Hospital Access",
+      "description": "How to find a hospital, prepare for a visit, and confirm available services.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    },
+    {
+      "id": 72,
+      "name": "Immunization",
+      "description": "How routine vaccines protect individuals and communities.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    },
+    {
+      "id": 69,
+      "name": "Malaria",
+      "description": "Information on malaria prevention, symptoms, testing, and timely care.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    },
+    {
+      "id": 67,
+      "name": "Maternal Health",
+      "description": "Practical information for pregnancy, antenatal care, and knowing when to seek urgent help.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    },
+    {
+      "id": 71,
+      "name": "Nutrition",
+      "description": "Everyday nutrition guidance for children and adults.",
+      "status": "ACTIVE",
+      "published_article_count": 1
+    }
+  ],
+  "articles": [
+    {
+      "id": 39,
+      "category_id": 75,
+      "category_name": "Hospital Access",
+      "title": "Prepare before visiting a hospital",
+      "summary": "Contact the facility and confirm the service you need.",
+      "content": "Check the hospital address, telephone number, listed department, and operating information. Call first for clinic schedules, referrals, cost information, required documents, and whether specialist or laboratory services are available. Bring identification, previous records, medicine names, and a contact person. For immediate danger, use an emergency unit or local emergency service rather than waiting for a routine clinic.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    },
+    {
+      "id": 38,
+      "category_id": 74,
+      "category_name": "Emergency Information",
+      "title": "Recognize warning signs and act promptly",
+      "summary": "Emergency care is for severe, rapidly worsening, or life-threatening conditions.",
+      "content": "Difficulty breathing, severe bleeding, collapse, chest pain, stroke-like weakness or facial droop, severe head injury, convulsions, suspected poisoning, and serious allergic reactions require immediate emergency help. Do not move a person unnecessarily after major trauma. Call the facility or emergency service, give a clear location and condition, and follow their instructions. This guide cannot replace emergency dispatch or clinical assessment.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    },
+    {
+      "id": 37,
+      "category_id": 73,
+      "category_name": "Disease Prevention",
+      "title": "Reduce common infection risks",
+      "summary": "Simple habits help protect households and communities.",
+      "content": "Wash hands with soap and clean water after using a toilet and before preparing or eating food. Use safe drinking water, cook food thoroughly, cover or store food safely, and ventilate crowded rooms. Use local mosquito and water-safety guidance. Stay away from others while seriously unwell if advised, and seek medical advice for persistent fever, cough, diarrhea, or worsening symptoms.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    },
+    {
+      "id": 36,
+      "category_id": 72,
+      "category_name": "Immunization",
+      "title": "Keep an immunization record up to date",
+      "summary": "Vaccines protect children and some adults.",
+      "content": "Vaccines are offered according to Uganda’s public immunization schedule. Keep a child health card and take it to each visit so due vaccines are not missed. Vaccines may cause short-lived redness, fever, or soreness. Severe breathing difficulty, swelling of the face or throat, or collapse after vaccination is an emergency and needs immediate care. Ask a health worker about missed doses and adult vaccination where applicable.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    },
+    {
+      "id": 35,
+      "category_id": 71,
+      "category_name": "Nutrition",
+      "title": "Build a varied everyday meal",
+      "summary": "Choose accessible foods across the main food groups.",
+      "content": "A balanced meal can include a starchy staple, a protein food such as beans, eggs, fish, or meat, fruits or vegetables, and clean water. Add variety when affordable rather than relying on one type of food. Infants have specific feeding needs; ask a health worker or caregiver-support service for advice. Seek assessment for persistent poor growth, severe weight loss, unusual swelling, or feeding difficulty.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    },
+    {
+      "id": 34,
+      "category_id": 70,
+      "category_name": "HIV and Sexual Health",
+      "title": "Know your options for HIV testing and prevention",
+      "summary": "Confidential services help people make informed decisions.",
+      "content": "Free or low-cost HIV testing and counseling are available through many Ugandan public health facilities. Ask a health worker about testing, condoms, HIV prevention medicines, treatment, pregnancy planning, and confidential reproductive care. HIV treatment works best when started early and taken consistently. A positive or negative result should be explained privately, with follow-up and partner support when appropriate.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    },
+    {
+      "id": 33,
+      "category_id": 69,
+      "category_name": "Malaria",
+      "title": "Prevent malaria and seek testing early",
+      "summary": "Practical prevention and when to test.",
+      "content": "Use insecticide-treated bed nets, keep mosquito control measures around living areas, and follow locally recommended prevention advice. Fever can have several causes, so malaria should be confirmed with a rapid test or microscopy before treatment whenever possible. Do not give leftover medicine or share another person’s prescription. A person who has severe weakness, confusion, breathing difficulty, convulsions, persistent vomiting, or cannot drink needs urgent medical attention.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    },
+    {
+      "id": 32,
+      "category_id": 68,
+      "category_name": "Child Health",
+      "title": "Know when a sick child needs urgent care",
+      "summary": "Use a calm checklist of urgent warning signs.",
+      "content": "A child who is difficult to wake, unable to drink, breathing unusually fast or with difficulty, having convulsions, becoming unusually floppy or irritable, or looking much worse should receive urgent medical assessment. Fever, cough, diarrhea, and vomiting can become serious when a child has poor feeding or dehydration. Follow advice from a qualified health worker and do not delay care because a clinic is closed. Seek the nearest appropriate emergency or pediatric service.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    },
+    {
+      "id": 31,
+      "category_id": 67,
+      "category_name": "Maternal Health",
+      "title": "Prepare for antenatal and delivery care",
+      "summary": "What to ask and arrange before and during pregnancy.",
+      "content": "Antenatal care provides regular checks on the health of the pregnant person and baby. If possible, begin antenatal visits early and attend all recommended appointments. Keep a record of visits, medicines, allergies, and expected delivery date. Seek immediate help for severe bleeding, severe headache, vision changes, convulsions, severe abdominal pain, difficulty breathing, or reduced baby movement after quickening. These are warning signs, not normal discomfort; contact a health facility or emergency service promptly.",
+      "language": "English",
+      "status": "PUBLISHED",
+      "created_at": "2026-11-26 10:31:13",
+      "published_at": "2026-11-26 10:31:13"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": 51,
+      "slug": "mengo-hospital",
+      "name": "Mengo Hospital",
+      "location": "Mengo, Kampala, Uganda",
+      "address": "Sir Albert Cook Road, Mengo, Kampala, Uganda; P.O. Box 7161",
+      "phone": "+256 771 370 263; +256 771 370 264; +256 757 143 951; +256 757 143 961; +256 312 307 100",
+      "description": "A Kampala hospital on Sir Albert Cook Road in Mengo.",
+      "operating_info": "Accident and Emergency is advertised as 24/7. Clinic hours vary; call the hospital to confirm.",
+      "emergency_contact": "No separate emergency number is published. Call the main hospital line and ask for Accident and Emergency.",
+      "status": "ACTIVE",
+      "image_path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByC5Cl5u25RdZQH2gd4fyy3VPRDGSv9R_gS8A_Y_XhQ&s=10",
+      "is_verified": true,
+      "services": [
+        {
+          "name": "Accident and Emergency",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Ambulance",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Blood bank",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Dental care",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Endocrinology and non-communicable diseases",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Eye care",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Intensive care",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Internal medicine",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Laboratory",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Mental health",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Obstetrics and gynecology",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Outpatient care",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Paediatrics",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Pathology",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Public health and research",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Surgery",
+          "source": "https://mengohospital.org/services/"
+        },
+        {
+          "name": "Urology",
+          "source": "https://mengohospital.org/services/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Mengo Hospital contact details",
+          "url": "https://mengohospital.org/contact-us/"
+        },
+        {
+          "label": "Mengo Hospital medical services",
+          "url": "https://mengohospital.org/services/"
+        },
+        {
+          "label": "Mengo Hospital Accident and Emergency",
+          "url": "https://mengohospital.org/mengo-hospital-expands-accident-and-emergency-department/"
+        },
+        {
+          "label": "KCCA hospital listing",
+          "url": "https://visitkampala.kcca.go.ug/business_details/mengo-hospital"
+        }
+      ],
+      "sources_checked_on": "2026-11-18",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mengo%20Hospital%2C%20Kampala%2C%20Uganda"
+    },
+    {
+      "id": 52,
+      "slug": "rubaga-hospital",
+      "name": "Rubaga Hospital",
+      "location": "Lubaga Hill, Kampala, Uganda",
+      "address": "Next to Lubaga Cathedral, Lubaga Hill, Kampala, Uganda; P.O. Box 14130",
+      "phone": "+256 200 244 800",
+      "description": "A tertiary hospital located beside Lubaga Cathedral on Lubaga Hill.",
+      "operating_info": "The hospital contact page states 24/7 service; KCCA lists the emergency department as 24/7. Clinic hours may vary.",
+      "emergency_contact": "No separate emergency number is published. Call +256 200 244 800 and ask for the emergency department.",
+      "status": "ACTIVE",
+      "image_path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54jJRO2AF0DNbTmxTVPEfeDQ9NcZue0vzgJzKE6-mZg&s=10",
+      "is_verified": true,
+      "services": [
+        {
+          "name": "CT and MRI imaging",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        },
+        {
+          "name": "Cardiology",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        },
+        {
+          "name": "Dental care",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        },
+        {
+          "name": "Dialysis and transplant care",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        },
+        {
+          "name": "ENT and neurosurgery",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        },
+        {
+          "name": "Emergency department",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        },
+        {
+          "name": "Intensive care",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        },
+        {
+          "name": "Maternity and paediatrics",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        },
+        {
+          "name": "Surgery",
+          "source": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lubaga Hospital contact details and hours",
+          "url": "https://lubagahospital.org/contact-us/"
+        },
+        {
+          "label": "KCCA hospital listing and services",
+          "url": "https://visitkampala.kcca.go.ug/business_details/lubaga-hospital"
+        }
+      ],
+      "sources_checked_on": "2026-11-18",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rubaga%20Hospital%2C%20Kampala%2C%20Uganda"
+    },
+    {
+      "id": 53,
+      "slug": "old-kampala-hospital",
+      "name": "Old Kampala Hospital",
+      "location": "Old Kampala Hill, Kampala, Uganda",
+      "address": "Old Kampala Hill, opposite Old Kampala Police Post, Kampala, Uganda",
+      "phone": "+256 752 024 333",
+      "description": "A hospital located on Old Kampala Hill, opposite the Old Kampala Police Post.",
+      "operating_info": "The hospital advertises 24/7 service and a 24-hour Accident and Emergency unit. Clinic hours vary.",
+      "emergency_contact": "+256 752 024 333 (published by the hospital for emergency care).",
+      "status": "ACTIVE",
+      "image_path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwGsq8MwCH5N6StbiEJ6hAEx0YrrDoM6Lhwz68BGxWrQ&s=10",
+      "is_verified": true,
+      "services": [
+        {
+          "name": "24-hour Accident and Emergency",
+          "source": "https://oldkampalahospital.org/"
+        },
+        {
+          "name": "Dental care",
+          "source": "https://oldkampalahospital.org/"
+        },
+        {
+          "name": "Diagnostics and therapeutics",
+          "source": "https://oldkampalahospital.org/"
+        },
+        {
+          "name": "Eye care",
+          "source": "https://oldkampalahospital.org/"
+        },
+        {
+          "name": "Obstetrics and gynecology",
+          "source": "https://oldkampalahospital.org/"
+        },
+        {
+          "name": "Primary care and medicine",
+          "source": "https://oldkampalahospital.org/"
+        },
+        {
+          "name": "Surgical services and neurosurgery",
+          "source": "https://oldkampalahospital.org/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Old Kampala Hospital contact details",
+          "url": "https://oldkampalahospital.org/contact/"
+        },
+        {
+          "label": "Old Kampala Hospital services and emergency care",
+          "url": "https://oldkampalahospital.org/"
+        }
+      ],
+      "sources_checked_on": "2026-11-18",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Old%20Kampala%20Hospital%2C%20Kampala%2C%20Uganda"
+    },
+    {
+      "id": 54,
+      "slug": "kibuli-hospital",
+      "name": "Kibuli Muslim Hospital",
+      "location": "Kibuli Hill, Makindye Division, Kampala, Uganda",
+      "address": "Kibuli Hill, off Prince Badru Kakungulu Road, Kampala, Uganda; P.O. Box 24548",
+      "phone": "+256 414 236 476/7; +256 702 542 719",
+      "description": "A hospital on Kibuli Hill in Makindye Division, off Prince Badru Kakungulu Road.",
+      "operating_info": "Emergency services are listed as 24/7 by KCCA. General and outpatient clinic hours are not published; call to confirm.",
+      "emergency_contact": "+256 414 236 476/7 (published by the hospital as its emergency call number).",
+      "status": "ACTIVE",
+      "image_path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmo-wmV-bP7ghPNQ0gy9Kiz_Ipzmf28yAc9yp2jnvgWg&s=10",
+      "is_verified": true,
+      "services": [
+        {
+          "name": "Dental clinic",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "name": "Emergency, inpatient and outpatient care",
+          "source": "https://visitkampala.kcca.go.ug/business_details/kibuli-hospital"
+        },
+        {
+          "name": "Eye centre",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "name": "Infectious disease and HIV clinic",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "name": "Laboratory",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "name": "Maternity and dialysis",
+          "source": "https://visitkampala.kcca.go.ug/business_details/kibuli-hospital"
+        },
+        {
+          "name": "Paediatrics",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "name": "Pharmacy",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "name": "Physiotherapy",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "name": "Radiology and imaging",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "name": "Surgery and theatre",
+          "source": "https://kibulimuslimhospital.ug/services/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Kibuli Muslim Hospital contact details",
+          "url": "https://kibulimuslimhospital.ug/contact/"
+        },
+        {
+          "label": "Kibuli Muslim Hospital services",
+          "url": "https://kibulimuslimhospital.ug/services/"
+        },
+        {
+          "label": "KCCA hospital listing and emergency services",
+          "url": "https://visitkampala.kcca.go.ug/business_details/kibuli-hospital"
+        }
+      ],
+      "sources_checked_on": "2026-11-18",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kibuli%20Muslim%20Hospital%2C%20Kampala%2C%20Uganda"
+    },
+    {
+      "id": 55,
+      "slug": "mulago-hospital",
+      "name": "Mulago National Referral Hospital",
+      "location": "Mulago Hill, Kawempe North Division, Kampala, Uganda",
+      "address": "Mulago Hill, Kawempe North Division, Kampala, Uganda; P.O. Box 7051",
+      "phone": "+256 414 554 008; +256 414 554 001",
+      "description": "Uganda’s national referral hospital, located on Mulago Hill in Kawempe North Division.",
+      "operating_info": "Medical Emergency, surgical Accident and Emergency, and paediatric Acute Care operate 24/7. Assessment-centre walk-in clinics run during regular working hours; specialist schedules vary.",
+      "emergency_contact": "Medical Emergency: +256 414 675 065; Acute Care Unit: +256 414 675 066.",
+      "status": "ACTIVE",
+      "image_path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThwK-UcgW_tOtsB8eA_sCJJlPrFcjeGALh56eOVKKr9A&s=10",
+      "is_verified": true,
+      "services": [
+        {
+          "name": "Clinical laboratory and pathology",
+          "source": "https://mulagohospital.go.ug/"
+        },
+        {
+          "name": "ENT and neurology",
+          "source": "https://visitkampala.kcca.go.ug/business_details/mulago-national-referral-hospital"
+        },
+        {
+          "name": "Internal medicine",
+          "source": "https://mulagohospital.go.ug/"
+        },
+        {
+          "name": "Medical Emergency and Accident and Emergency",
+          "source": "https://mulagohospital.go.ug/contact2.html"
+        },
+        {
+          "name": "Nuclear medicine",
+          "source": "https://mulagohospital.go.ug/"
+        },
+        {
+          "name": "Obstetrics, gynecology and neonatology",
+          "source": "https://visitkampala.kcca.go.ug/business_details/mulago-national-referral-hospital"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "https://visitkampala.kcca.go.ug/business_details/mulago-national-referral-hospital"
+        },
+        {
+          "name": "Paediatrics",
+          "source": "https://mulagohospital.go.ug/"
+        },
+        {
+          "name": "Radiology and imaging",
+          "source": "https://mulagohospital.go.ug/"
+        },
+        {
+          "name": "Rheumatology and renal dialysis",
+          "source": "https://visitkampala.kcca.go.ug/business_details/mulago-national-referral-hospital"
+        },
+        {
+          "name": "Surgery",
+          "source": "https://mulagohospital.go.ug/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Mulago National Referral Hospital",
+          "url": "https://mulagohospital.go.ug/"
+        },
+        {
+          "label": "Mulago Hospital emergency contacts",
+          "url": "https://mulagohospital.go.ug/contact2.html"
+        },
+        {
+          "label": "KCCA hospital listing",
+          "url": "https://visitkampala.kcca.go.ug/business_details/mulago-national-referral-hospital"
+        }
+      ],
+      "sources_checked_on": "2026-11-18",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mulago%20National%20Referral%20Hospital%2C%20Kampala%2C%20Uganda"
+    },
+    {
+      "id": 61,
+      "slug": "nakasero-hospital",
+      "name": "Nakasero Hospital",
+      "location": "Nakasero, Kampala, Uganda",
+      "address": "14A Akii Bua Road, Nakasero, Kampala, Uganda",
+      "phone": "+256 312 531 400; +256 800 200 035; +256 776 970 220",
+      "description": "A private general hospital on Akii Bua Road in Nakasero, Kampala.",
+      "operating_info": "The hospital describes 24/7 emergency support. Call ahead to confirm outpatient clinic schedules and service availability.",
+      "emergency_contact": "The hospital provides 24/7 support. Call +256 312 531 400 or +256 800 200 035 and ask for the emergency department.",
+      "status": "ACTIVE",
+      "image_path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5AF1PejntZq2UBMvAbKs5iKfJZPyzZniQnggZdwdq4g&s=10",
+      "is_verified": true,
+      "services": [
+        {
+          "name": "Diagnostics and imaging",
+          "source": "https://nakaserohospital.com/"
+        },
+        {
+          "name": "Emergency and critical care",
+          "source": "https://nakaserohospital.com/patient-support/"
+        },
+        {
+          "name": "Laboratory and pharmacy",
+          "source": "https://visitkampala.kcca.go.ug/business_details/nakasero-hospital"
+        },
+        {
+          "name": "Maternity and neonatal care",
+          "source": "https://nakaserohospital.com/"
+        },
+        {
+          "name": "Outpatient and inpatient care",
+          "source": "https://nakaserohospital.com/patient-support/"
+        },
+        {
+          "name": "Physiotherapy and rehabilitation",
+          "source": "https://nakaserohospital.com/"
+        },
+        {
+          "name": "Specialist care",
+          "source": "https://nakaserohospital.com/"
+        },
+        {
+          "name": "Surgery",
+          "source": "https://nakaserohospital.com/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Nakasero Hospital contact and patient information",
+          "url": "https://nakaserohospital.com/contact-us/"
+        },
+        {
+          "label": "Nakasero Hospital services and patient support",
+          "url": "https://nakaserohospital.com/patient-support/"
+        },
+        {
+          "label": "KCCA hospital listing, contacts, and directions",
+          "url": "https://visitkampala.kcca.go.ug/business_details/nakasero-hospital"
+        }
+      ],
+      "sources_checked_on": "2026-11-26",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Nakasero%20Hospital%2C%20Kampala%2C%20Uganda"
+    }
+  ]
+}
