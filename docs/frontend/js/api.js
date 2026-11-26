@@ -2,7 +2,7 @@
   const TOKEN_KEY = 'epithyia.jwt';
   const apiMeta = document.querySelector('meta[name="api-base"]');
   const staticMode = document.querySelector('meta[name="api-mode"]')?.content === 'static'
-    || new URLSearchParams(window.location.search).get('static-preview') === '1';
+    || new URLSearchParams(window.location.search).get('static-preview') === '1' || window.location.hostname.endsWith('.github.io');
   const apiBase = (apiMeta?.content || '/api').replace(/\/$/, '');
   let siteDataPromise;
   const staticSessions = new Map();
