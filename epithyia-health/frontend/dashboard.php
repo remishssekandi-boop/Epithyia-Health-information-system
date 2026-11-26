@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Your EPITHYIA GROUP account and role-specific tools.">
+  <title>Account dashboard — EPITHYIA GROUP</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="/css/content.css">
+  <script src="/js/api.js" defer></script>
+  <script src="/js/site.js" defer></script>
+  <script src="/js/dashboard.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="EPITHYIA GROUP home"><span class="brand-mark" aria-hidden="true">E</span><span>EPITHYIA <strong>GROUP</strong></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/health-information.php">Health information</a><a href="/about.php">About</a><a href="/contact.php">Contact</a></nav>
+    <div class="header-actions"><div class="auth-entry"><a class="button button-quiet" href="/login.php">Log in</a><a class="button button-small" href="/register.php">Join</a></div><div class="auth-session" hidden><span class="welcome-label">Hello, <strong data-user-name></strong></span><button class="button button-quiet" type="button" data-logout>Log out</button></div></div>
+  </header>
+  <main id="main" class="page-shell">
+    <section class="page-intro"><p class="eyebrow">Your account</p><h1 id="dashboard-title">Loading your dashboard…</h1><p id="dashboard-description">Checking your account permissions.</p></section>
+    <div id="dashboard-content" class="dashboard-content" aria-live="polite"><p class="loading-note">Loading account information…</p></div>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="/">EPITHYIA <strong>GROUP</strong></a><p>Practical hospital and health information for Kampala communities.</p><span>© <span data-current-year></span> EPITHYIA GROUP</span></footer>
+</body>
+</html>
