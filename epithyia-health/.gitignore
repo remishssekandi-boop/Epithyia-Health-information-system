@@ -1,0 +1,17 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Runtime and coverage output
+logs/
+coverage/
+*.log
+
+# Local persistent demonstration database
+backend/data/*.sqlite
+backend/data/*.sqlite-journal

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Create a community member account with EPITHYIA GROUP.">
+  <title>Create account — EPITHYIA GROUP</title>
+  <link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/auth.css">
+  <script src="/js/api.js" defer></script><script src="/js/site.js" defer></script><script src="/js/auth.js" defer></script>
+</head>
+<body class="auth-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="/" aria-label="EPITHYIA GROUP home"><span class="brand-mark" aria-hidden="true">E</span><span>EPITHYIA <strong>GROUP</strong></span></a><nav class="main-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/health-information.php">Health information</a><a href="/about.php">About</a><a href="/contact.php">Contact</a></nav><div class="header-actions"><div class="auth-entry"><a class="button button-quiet" href="/login.php">Log in</a><a class="button button-small" href="/register.php" aria-current="page">Join</a></div><div class="auth-session" hidden><span class="welcome-label">Hello, <strong data-user-name></strong></span><button class="button button-quiet" type="button" data-logout>Log out</button></div></div></header>
+  <main id="main" class="auth-layout auth-layout-register"><section class="auth-story"><p class="eyebrow">Community account</p><h1>Access health guides<br><em>and hospital information.</em></h1><p>Create an account to use the platform dashboard. Hospital listings and published health guides remain available without registration.</p><a class="text-link" href="/health-information.php">Explore without an account <span aria-hidden="true">→</span></a></section>
+    <section class="auth-card"><div class="auth-card-heading"><span class="card-icon" aria-hidden="true">＋</span><p class="eyebrow">Create a community account</p><h2>Register</h2><p>Your details create an account for the health information dashboard. They are not shared as health records.</p></div>
+      <form id="register-form" novalidate><label class="form-field"><span>Full name</span><input name="name" type="text" autocomplete="name" required minlength="2" maxlength="150" placeholder="Your name"></label><label class="form-field"><span>Email address</span><input name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"></label><label class="form-field"><span>Phone number</span><input name="phone" type="tel" autocomplete="tel" required maxlength="30" placeholder="e.g. 0700 123 456"><small>Ugandan local numbers and international format are supported.</small></label><label class="form-field"><span>Password</span><input name="password" type="password" autocomplete="new-password" required minlength="12" maxlength="72" aria-describedby="password-hint"><small id="password-hint">At least 12 characters with lowercase, uppercase, a number, and a symbol.</small></label><label class="form-field"><span>Confirm password</span><input name="confirmPassword" type="password" autocomplete="new-password" required minlength="12"></label><button class="button button-full" type="submit">Create account <span aria-hidden="true">→</span></button><p class="form-feedback" id="register-feedback" role="status" aria-live="polite"></p></form>
+      <p class="auth-switch">Already registered? <a href="/login.php">Log in</a></p>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="/">EPITHYIA <strong>GROUP</strong></a><p>Practical hospital and health information for Kampala communities.</p><span>© <span data-current-year></span> EPITHYIA GROUP</span></footer>
+</body>
+</html>

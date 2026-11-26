@@ -1,0 +1,33 @@
+.auth-page { min-height: 100vh; }
+.auth-layout { display: grid; width: min(1100px, calc(100% - 64px)); min-height: 680px; align-items: center; grid-template-columns: .9fr 1.1fr; gap: clamp(2rem, 7vw, 6rem); margin: 0 auto; padding: 60px 0 74px; }
+.auth-layout-register { align-items: start; }
+.auth-story { max-width: 410px; }
+.auth-story h1 { font-size: clamp(3.2rem, 5.3vw, 4.65rem); }
+.auth-story > p:not(.eyebrow) { margin: 0 0 1.5rem; color: var(--muted); font-size: .95rem; line-height: 1.8; }
+.auth-card { width: 100%; max-width: 540px; justify-self: end; padding: clamp(1.5rem, 4vw, 2.6rem); border: 1px solid rgba(24,50,45,.09); border-radius: 20px; background: #fff; box-shadow: 0 24px 80px rgba(28,65,53,.09); }
+.auth-card-heading { position: relative; margin-bottom: 1.7rem; }
+.auth-card-heading .card-icon { margin-bottom: 1.15rem; }
+.auth-card-heading .eyebrow { margin-bottom: .45rem; }
+.auth-card-heading h2 { margin-bottom: .5rem; font-size: 2.25rem; }
+.auth-card-heading > p:last-child { margin: 0; color: var(--muted); font-size: .83rem; line-height: 1.6; }
+.form-field { display: grid; gap: .52rem; margin-bottom: 1.05rem; }
+.form-field > span { color: #37534a; font-size: .76rem; font-weight: 750; }
+.form-field input { width: 100%; min-height: 48px; padding: .78rem .9rem; border: 1px solid #d6e1d9; border-radius: 8px; color: var(--ink); background: #fbfcfb; font-size: .87rem; }
+.form-field input::placeholder { color: #a2ada6; }
+.form-field input:focus { border-color: #71977d; outline: 3px solid rgba(113,151,125,.14); }
+.form-field small { color: #829088; font-size: .7rem; line-height: 1.5; }
+.form-feedback { min-height: 1.2rem; margin: .9rem 0 0; color: #a44634; font-size: .79rem; line-height: 1.55; }
+.form-feedback.success { color: #286543; }
+.form-feedback a { color: inherit; font-weight: 750; }
+.auth-switch { margin: 1rem 0 0; padding-top: 1rem; border-top: 1px solid #edf1ed; color: #728077; font-size: .77rem; }
+.auth-switch a { color: var(--forest); font-weight: 750; text-decoration: none; }
+.auth-switch a:hover { text-decoration: underline; }
+.button[disabled] { cursor: wait; opacity: .68; transform: none; }
+@media (max-width: 780px) {
+  .auth-layout { width: min(540px, calc(100% - 36px)); min-height: 0; grid-template-columns: 1fr; gap: 2rem; padding: 46px 0 58px; }
+  .auth-story { text-align: center; }
+  .auth-story .eyebrow { justify-content: center; }
+  .auth-story h1 { font-size: 3.5rem; }
+  .auth-story > p:not(.eyebrow) { max-width: 430px; margin-right: auto; margin-left: auto; }
+  .auth-card { justify-self: center; }
+}

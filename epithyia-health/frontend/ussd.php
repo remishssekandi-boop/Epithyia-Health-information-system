@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Try the EPITHYIA GROUP public-information USSD simulator.">
+  <title>USSD simulator — EPITHYIA GROUP</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/ussd.css">
+  <script src="/js/api.js" defer></script>
+  <script src="/js/site.js" defer></script>
+  <script src="/js/ussd.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="EPITHYIA GROUP home"><span class="brand-mark" aria-hidden="true">E</span><span>EPITHYIA <strong>GROUP</strong></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/health-information.php">Health information</a><a href="/about.php">About</a><a href="/contact.php">Contact</a></nav>
+    <div class="header-actions"><div class="auth-entry"><a class="button button-quiet" href="/login.php">Log in</a><a class="button button-small" href="/register.php">Join</a></div><div class="auth-session" hidden><span class="welcome-label">Hello, <strong data-user-name></strong></span><button class="button button-quiet" type="button" data-logout>Log out</button></div></div>
+  </header>
+  <main id="main" class="page-shell">
+    <section class="page-intro"><p class="eyebrow">Phone-style hospital guide</p><h1>Practice finding<br><em>hospital information.</em></h1><p>Use this interactive menu to find hospital telephone numbers, addresses, services, hours, and emergency contacts. This browser simulator is not connected to a mobile network; appointment requests are available only from a signed-in community account dashboard.</p></section>
+    <section class="ussd-quick-guide" aria-labelledby="ussd-guide-title">
+      <p class="eyebrow">Simulator guide</p>
+      <h2 id="ussd-guide-title">Try these demo USSD codes</h2>
+      <p><strong>Example dial string:</strong> <code>*123#</code> <span>— for this walkthrough only; it is not an active shortcode and must not be dialled on a phone.</span></p>
+      <ul>
+        <li><code>1 → 1 → 1</code> Browse hospitals → Mengo Hospital → telephone numbers.</li>
+        <li><code>1 → 5 → 5</code> Browse hospitals → Mulago National Referral Hospital → emergency contacts.</li>
+        <li><code>4 → 5</code> Open emergency contacts → Mulago emergency numbers.</li>
+      </ul>
+      <p>To try a path, start a session below, then enter one menu number at a time. Use <code>0</code> to go back, <code>00</code> for the main menu, and <code>9</code> to end.</p>
+    </section>
+    <section class="ussd-layout" aria-label="USSD phone simulator">
+      <div class="phone-shell">
+        <div class="phone-speaker" aria-hidden="true"></div>
+        <div class="phone-screen">
+          <p class="phone-network">EPITHYIA · HEALTH INFO</p>
+          <p id="ussd-state" class="phone-state" role="status" aria-live="polite">Start a session to see the menu.</p>
+          <pre id="ussd-menu" class="phone-menu">No active session</pre>
+        </div>
+        <div class="phone-controls" aria-hidden="true"><span></span></div>
+      </div>
+      <div class="ussd-controls">
+        <form id="ussd-start-form">
+          <label class="ussd-label" for="ussd-phone">Phone number</label>
+          <input id="ussd-phone" name="phoneNumber" type="tel" autocomplete="tel" required maxlength="30" value="+256700123456">
+          <button id="ussd-start" class="button button-full" type="submit">Start USSD session</button>
+        </form>
+        <form id="ussd-input-form">
+          <label class="ussd-label" for="ussd-input">Enter a menu number</label>
+          <div class="ussd-entry-row"><input id="ussd-input" name="selection" type="text" inputmode="numeric" pattern="[0-9]{1,2}" maxlength="2" required disabled placeholder="e.g. 1"><button id="ussd-submit" class="button" type="submit" disabled>Submit</button></div>
+          <button id="ussd-end" class="button button-outline button-full" type="button" disabled>End session</button>
+          <p id="ussd-feedback" class="ussd-feedback" role="status" aria-live="polite"></p>
+        </form>
+        <section class="ussd-history-section" aria-labelledby="ussd-history-title">
+          <h2 id="ussd-history-title">Session history</h2>
+          <ol id="ussd-history" class="ussd-history"><li>History appears after a session starts.</li></ol>
+        </section>
+      </div>
+    </section>
+    <p class="content-notice ussd-disclaimer">The simulator does not send mobile-network traffic, accept appointment requests, or provide emergency response. Do not enter real patient information. Call the hospital directly to confirm published numbers and availability.</p>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="/">EPITHYIA <strong>GROUP</strong></a><p>Practical hospital and health information for Kampala communities.</p><span>© <span data-current-year></span> EPITHYIA GROUP</span></footer>
+</body>
+</html>
